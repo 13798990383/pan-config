@@ -1,0 +1,19 @@
+﻿spring:
+  proflies:
+    active:
+      - dev
+---
+spring:
+  proflies: dev             # 开发环境
+  application:
+    name: pan-config-dev
+---
+spring:
+  proflies: test             # 测试环境
+  application:
+    name: pan-config-test
+
+
+# 请保存为UTF-8格式，不然上传到git会有乱码
+# 请保存为UTF-8格式，不然上传到git会有乱码
+# 请保存为UTF-8格式，不然上传到git会有乱码
