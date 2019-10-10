@@ -11,7 +11,7 @@ spring:
 eureka: 
    client: 
       service-url: 
-         defaultZone: http://enreka-dev.com:7001/eureka/
+         defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server:
    port: 8202
@@ -22,7 +22,7 @@ spring:
 eureka: 
    client: 
       service-url: 
-         defaultZone: http://enreka-dev.com:7001/eureka/
+         defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 # 请保存为UTF-8格式，不然上传到git会有乱码
 # 请保存为UTF-8格式，不然上传到git会有乱码
