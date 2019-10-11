@@ -7,7 +7,7 @@ server:
 spring:
   profiles: dev             # 开发环境
   application: 
-    name: pan-config-dept-client
+    name: pan-config-dept-client  # 根据这个名字来查找github上面的文件一模一样的文件
   datasource: 
       type: com.alibaba.druid.pool.DruidDataSource
       driver-class-name: org.gjt.mm.mysql.Driver
@@ -27,7 +27,7 @@ mybatis:
 eureka:
    client: 
       service-url:
-         defaultZone: http:eureka7001.com:7001/enreka
+         defaultZone: http://eureka7001.com:7001/enreka
    instance:
       instance-id: dept-8001.com
       prefer-ip-address: true
@@ -64,7 +64,7 @@ mybatis:
 eureka:
    client: 
       service-url:
-         defaultZone: http:eureka7001.com:7001/enreka
+         defaultZone: http://eureka7001.com:7001/enreka
    instance:
       instance-id: dept-8001.com
       prefer-ip-address: true

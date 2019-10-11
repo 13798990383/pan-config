@@ -18,7 +18,7 @@ server:
 spring:
    profiles: dev       # dev环境
    application: 
-      name: pan-config-eureka-client
+      name: pan-config-eureka-client   # 根据这个名字来查找github上面的文件一模一样的文件
 
 eureka: 
    instance: 
@@ -35,7 +35,7 @@ server:
 spring:
    profiles: test       # ST环境
    application: 
-      name: pan-config-eureka-client
+      name: pan-config-eureka-client   # 根据这个名字来查找github上面的文件一模一样的文件
 
 eureka: 
    instance: 
